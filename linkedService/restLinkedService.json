@@ -1,0 +1,15 @@
+{
+	"name": "restLinkedService",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "RestService",
+		"typeProperties": {
+			"url": "http://dummy.restapiexample.com/api/v1/employees",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Basic",
+			"userName": "825aa9ad-ac57-4248-a6b6-086a8dd3f83d",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIlRFTVBERkFDVE9SWV9kYWQxYzEyNy0wOTY0LTRjMGUtODFiYS1iZGMyYjRlYmNiZmUiDQp9"
+		}
+	}
+}
