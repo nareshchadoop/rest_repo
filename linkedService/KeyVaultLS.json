@@ -1,0 +1,10 @@
+{
+	"name": "KeyVaultLS",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://tempKeyV.vault.azure.net/"
+		}
+	}
+}
