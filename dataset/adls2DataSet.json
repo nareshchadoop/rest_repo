@@ -1,0 +1,17 @@
+{
+	"name": "adls2DataSet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "adls2LS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation"
+			}
+		},
+		"schema": {}
+	}
+}
